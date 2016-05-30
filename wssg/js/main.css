@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "cfont";
+  src: url('../js/5thgradecursive-2.ttf') format('truetype');
+}
+@media query {
+
+}
+body {
+  background-image:url("dr-cs1.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-origin: content-box;
+}
+#main {
+  background-color: black;
+}
+
+#well {
+  display: inline-block;
+  height: auto;
+  width: 90%;
+  margin-top: 70vh;
+  font: 1.5vw "cfont", Helvetica;
+  border: solid gray 2px;
+  border-radius: 5px;
+}
+#playAudio {
+  font: 1vw "cfont", Helvetica;
+  position: absolute;
+  bottom: 0;
+  margin-left: -15%;
+  height: auto;
+  color: black;
+  padding-top: 10px;
+  background-color: #ACB3B5;
+  border: solid gray 1px;
+  border-radius: 5px;
+  outline: 0;
+}
+#twitter {
+  position: absolute;
+  bottom: 0;
+  padding-top: 10px;
+  outline: 0;
+}

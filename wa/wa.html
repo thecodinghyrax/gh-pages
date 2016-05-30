@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Today's Weather</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/wa.css" />
+
+  </head>
+  <body>
+    <div id="main" class="container container-fluid">
+      <h1>Weather Today</h1>
+      <h3 id="notWorking">Your location isn't showing up :(<br>Let use your zip code to find it instead<br>
+        <form>
+          <input id='zip' type='text' maxlength='5' placeholder='Zip Code' ><br>
+
+        </form>
+      </h3>
+      <button id="btn" type='submit' autofocus="autofocus">Get Weather</button>
+      <h3 id="working"></h3>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/wa.js"></script>
+  </body>
+</html>
