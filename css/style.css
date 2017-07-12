@@ -1,141 +1,160 @@
 #border-unhide {
-  border: solid red 1px;
+    border: solid red 1px;
 }
+
 #home-page {
-  background: url("macbook-925480_1920.jpg");
-  height: 955px;
-  background-attachment: fixed;
+    background: url("macbook-925480_1920.jpg");
+    height: 955px;
+    background-attachment: fixed;
 }
+
 #real-burger-top {
-  position:absolute;
-  top: 5px;
-  width: 25px;
-  left: 25px;
-  margin-left: -7px;
-
+    position: absolute;
+    top: 5px;
+    width: 25px;
+    left: 25px;
+    margin-left: -7px;
 }
+
 #real-burger-middle {
-  position:absolute;
-  top: 13px;
-  left: 25px;
-  margin-left: -7px;
-  width:25px;
-
+    position: absolute;
+    top: 13px;
+    left: 25px;
+    margin-left: -7px;
+    width: 25px;
 }
+
 #real-burger-bottom {
-  position:absolute;
-  top: 20px;
-  left: 25px;
-  margin-left: -7px;
-  width: 25px;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    margin-left: -7px;
+    width: 25px;
+}
 
-}
 #name-img {
-  margin-top: 50px;
-  padding-top: 100px;
+    margin-top: 50px;
+    padding-top: 100px;
 }
+
 .name-img {
-  padding: 1.1em;
+    padding: 1.1em;
 }
-#hyrax-img {
-  height: 50px;
-  border: solid #002222 2px;
-  margin-bottom: 225px
+
+#dandh {
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border: solid gray 2px;
+    border-radius: 50%;
 }
+
 .links-button {
-  height: 3.125em;
-  width: 11em;
-  margin: 0em 3.2em 0em 3.2em;
-  background-color: gray;
-  border-radius: 50px;
+    height: 3.125em;
+    width: 11em;
+    margin: 0em 3.2em 0em 3.2em;
+    background-color: gray;
+    border-radius: 50px;
 }
+
 .links-button-text {
-  color: black;
-  font-size: 25px;
+    color: black;
+    font-size: 25px;
 }
+
 #about-page {
-  background: url("board-22098_1920.jpg");
-  height: 955px;
-  background-attachment: fixed;
+    background: url("board-22098_1920.jpg");
+    height: 955px;
+    background-attachment: fixed;
 }
+
 #about-text {
-  margin-top: 50px;
+    margin-top: 50px;
 }
+
 #profile-pic {
-  height: 200px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  border: solid gray 2px;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: solid gray 2px;
 }
+
 #about-me {
-  font-size: 1.3em;
-  text-align: left;
-  background-color:#CDD4D2;
+    font-size: 1.3em;
+    text-align: left;
+    background-color: #CDD4D2;
 }
 
 #projects-page {
-  background: url("motherboard-386669_1920.jpg");
-  height: 955px;
-  background-attachment: fixed;
+    background: url("motherboard-386669_1920.jpg");
+    height: 955px;
+    background-attachment: fixed;
 }
+
 #projects-text {
-  margin-top: 50px;
-  margin-bottom: 125px;
+    margin-top: 50px;
+    margin-bottom: 125px;
 }
+
 .project-block {
-  border: solid black 2px;
-  display: inline-block;
-  background-color: gray;
+    border: solid black 2px;
+    display: inline-block;
+    background-color: gray;
 }
 
 .img-list li {
-  height: 300px;
-  max-width: 40%;
-  float: left;
-  margin-top: -10px;
-  margin-left: 63px;
-
-  list-style-type: none;
-}
-
-@media (max-width: 768px){
-  .img-list li {
-    height: 200px;
+    height: 300px;
     max-width: 40%;
     float: left;
-    margin-left:10px;
-  }
+    margin-top: -10px;
+    margin-left: 63px;
+    list-style-type: none;
 }
+
+@media (max-width: 768px) {
+    .img-list li {
+        height: 200px;
+        max-width: 40%;
+        float: left;
+        margin-left: 10px;
+    }
+}
+
 #contact-page {
-  background: url("hard-drive-656127_1920.jpg");
-  height: 955px;
-  background-attachment: fixed;
+    background: url("hard-drive-656127_1920.jpg");
+    height: 955px;
+    background-attachment: fixed;
 }
+
 #contact-text {
-  margin-top: 50px;
-  margin-bottom: 150px;
+    margin-top: 50px;
+    margin-bottom: 150px;
 }
+
 #mail-link {
-  font-size: 50px;
-  margin-top: 25px;
-  color: black;
+    font-size: 50px;
+    margin-top: 25px;
+    color: black;
 }
+
 .links-button-contact {
-  height: 5em;
-  width: 5em;
-  margin-bottom: 50px;
-  background-color: white;
-  border-radius: 100%;
-  border: solid white 5px;
-  font-size: xx-large;
-  background: url("background-1180666_1920.jpg");
+    height: 5em;
+    width: 5em;
+    margin-bottom: 50px;
+    background-color: white;
+    border-radius: 100%;
+    border: solid white 5px;
+    font-size: xx-large;
+    background: url("background-1180666_1920.jpg");
 }
+
 #footer {
-  height: 100px;
-  background-color: #292929;
-  color: #dedede;
+    height: 100px;
+    background-color: #292929;
+    color: #dedede;
 }
+
 #footer-text {
-  margin-top: 45px;
-  font-size: 30px;
+    margin-top: 45px;
+    font-size: 30px;
 }
